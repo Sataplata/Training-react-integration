@@ -1,0 +1,5 @@
+export {Footer} from "./Footer/Footer.js"
+export {Introduction} from "./Introduction/Introduction.js"
+export {Header} from "./Header/header.js"
+export {Photos} from "./Photos/Photos.js"
+export {Contact} from "./Contact/Contact.js"
