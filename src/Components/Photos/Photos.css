@@ -1,5 +1,56 @@
-.photos-box{
-    width: 100%;
-    background-color: green;
-    height: 100px;
+.photos-box {
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.photosTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  width: 167px;
+  height: 47px;
+  left: 125px;
+  top: 670px;
+  margin-left: 125px;
+  margin-right: 40px;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: rgb(62, 61, 61, 1);
+}
+
+.instaLink {
+  width: 106px;
+  height: 23px;
+  left: 332px;
+  top: 684px;
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-decoration: underline;
+  color: rgb(62, 61, 61, 1);
+  text-decoration-color: rgb(116, 123, 96, 1);
+}
+
+.gridImg {
+  width: 200px;
+  height: 200px;
+  left: 372px;
+  top: 777px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px;
 }
