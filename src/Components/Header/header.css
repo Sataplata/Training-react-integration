@@ -12,17 +12,14 @@ ul {
   list-style-type: none;
 }
 
-bokoTitle {
+a {
+  text-decoration: none;
+  color: rgb(62, 61, 61, 1);
   font-family: Work Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
   line-height: 35px;
-  text-transform: uppercase;
-}
-a {
-  text-decoration: none;
-  color: rgb(62, 61, 61, 1);
 }
 
 #epicerieBio {

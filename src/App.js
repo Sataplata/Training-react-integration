@@ -5,10 +5,12 @@ function App() {
   return (
     <div style={{display: 'flex', flexDirection: 'column', height:'100%'}}>
       <Header />
-      <Introduction />
-      <Photos /> 
-      <Contact />
-      <Footer />
+        <div style={{marginRight: '5%', marginLeft:'5%'}}>
+        <Introduction />
+        <Photos /> 
+        <Contact />
+        <Footer />
+        </div>
         
     </div>
   );

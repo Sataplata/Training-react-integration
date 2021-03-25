@@ -10,7 +10,7 @@ export const Header = () => {
             <ul>
                 <div id="nav-left">
                     <li id="bokoTitle"><LogoBoko /></li>
-                    <li><a href="#nav">BokŌ</a></li>
+                    <li><a href="#nav">BOKŌ</a></li>
                     <li id="epicerieBio">Épicerie bio</li>
                 </div>
 

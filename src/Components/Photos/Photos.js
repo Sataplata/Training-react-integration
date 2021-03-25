@@ -9,7 +9,7 @@ import gridImg7 from '../../Assets/gridImg7.png';
 import gridImg8 from '../../Assets/gridImg8.png';
 import gridImg9 from '../../Assets/gridImg9.png';
 import gridImg10 from '../../Assets/gridImg10.png';
-
+const arrayImg = [gridImg1,gridImg2,gridImg3,gridImg4,gridImg5,gridImg6,gridImg7,gridImg8,gridImg9,gridImg10];
 
 export const Photos = () => {
 
@@ -21,22 +21,8 @@ export const Photos = () => {
             </div>
 
             <div className="photosGrid">
-                <img className="gridImg" src={gridImg1} alt="feed insta" />
-                <img className="gridImg" src={gridImg2} alt="feed insta" />
-                <img className="gridImg" src={gridImg3} alt="feed insta" />
-                <img className="gridImg" src={gridImg4} alt="feed insta" />
-                <img className="gridImg" src={gridImg5} alt="feed insta" />
-                <img className="gridImg" src={gridImg6} alt="feed insta" />
-                <img className="gridImg" src={gridImg7} alt="feed insta" />
-                <img className="gridImg" src={gridImg8} alt="feed insta" />
-                <img className="gridImg" src={gridImg9} alt="feed insta" />
-                <img className="gridImg" src={gridImg10} alt="feed insta" />
-
-
-
-
+                {arrayImg.map((img) => (<img className="gridImg" src={img} alt="feed insta" />))}
             </div>
-
         </div>
     );
 

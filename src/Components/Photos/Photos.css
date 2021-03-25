@@ -2,14 +2,15 @@
   width: 100%;
   background-color: white;
   display: flex;
+  flex-direction: column;
 }
 
 .photosTitle {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   text-align: center;
   align-items: center;
+  background-color: red;
 }
 
 h2 {
@@ -46,11 +47,18 @@ h2 {
 }
 
 .gridImg {
+  text-align: center;
   width: 200px;
   height: 200px;
   left: 372px;
   top: 777px;
-  display: grid;
-  grid-template-columns: 200px 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px;
+  margin: 0 24px 48px 24px;
+}
+
+.photosGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
